@@ -1,5 +1,3 @@
-var errorLinter = true; // ESLint fallará por no-var
-
 export function esCorreoValido(correo) {
   if (!correo || typeof correo !== "string") {
     return false;
